@@ -1,0 +1,183 @@
+/*commento*/
+/*========
+STYLE.CSS- Il modello di Orban
+Foglio di stile========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #2c2c2c;
+    background-color: #f8f6f1;
+}
+
+header {
+    background-color: #1a1a2a;
+    color: #e8e6e1;
+    padding: 45px 30px;
+    text-align: center;
+}
+
+nav {
+    background-color: #16213e;
+    padding: 14px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    /*toglie i pallini dalle lista*/
+}
+
+nav li {
+    display: inline;
+
+}
+
+nav a {
+    color: #e8e6e1;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+nav a:hover {
+    color: #c8a45c;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+section {
+    margin-bottom: 45px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #1a1a2e;
+    border-bottom: 2px solid #c8a45c;
+    padding-bottom: 8px;
+    margin-bottom: 22px;
+}
+
+p {
+    margin-bottom: 14px;
+}
+
+article {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-left: 4px solid #c8a45c;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-radius: 4px;
+}
+
+article h3 {
+    font-size: 19px;
+    color: #1a1a2a;
+    margin-bottom: 8px;
+}
+
+article h3 a {
+    color: #1a1a2e;
+    text-decoration: none;
+}
+
+article h3 a:hover {
+    color: #c8a45c;
+}
+
+.metadati {
+    font-size: 14px;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.descrizione {
+    font-size: 16px;
+    color: #444;
+
+}
+
+.fonte {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 11px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1a1a2e;
+    color: #e8e6e1;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+
+ul,
+ol {
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+a {
+    color: #2a5a8a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c8a45c;
+}
+
+iframe {
+    margin: 20px 0;
+    max-width: 100%;
+    border: none;
+
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: #e8e8e1;
+    text-align: center;
+    padding: 28px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #c8a45c;
+    text-decoration: none;
+}

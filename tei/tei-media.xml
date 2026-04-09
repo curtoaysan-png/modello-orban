@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title> Legge sui media (2010)</title>
+                <author> parlamento ungherese</author>
+            </titleStmt>
+            <publicationStmt>
+
+                <p> Progetto: Il modello Orban - Unibo 2026
+                </p>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p>Magyar Közlöny, 2010</p>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>il <date when="2010-12-21">21 dicembre 2010</date> il <orgName
+                    ref="http://viaf.org/viaf/307456121">Parlamento ungherese</orgName> ha approvato
+                la legge sui media proposta dal governo di <persName
+                    ref="http://viaf.org/viaf/84249300">Viktor Orbán</persName>
+            </p>
+            <p>la nuova
+                regolamentazione dei media si articolò in due atti legislativi:</p>
+            <list>
+                <item> Act CIV 2010 sulla libertà di stampa e regole fondamentali sui contenuti
+                    mediali</item>
+                <item> Act CLXXXV del 2010 sui servizi mediali e la comunicazione di massa</item>
+            </list>
+            <p> L'elemento più significativo fu la creazione di un'autorità di regolamentazione, <orgName>Autorità
+                nazionale per i media e le infocomunicazioni/NMHH</orgName> con sede a <placeName>
+                Budapest</placeName>
+            </p>"
+
+        </body>
+    </text>
+</TEI>
