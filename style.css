@@ -181,3 +181,26 @@ footer a {
     color: #c8a45c;
     text-decoration: none;
 }
+
+footer a:hover {
+    color: #e8e6e1;
+}
+
+@media (max-width:600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav li {
+        display: block;
+        margin: 6px 0;
+    }
+
+    main {
+        padding: 20px 15px;
+    }
+
+    article {
+        padding: 15px;
+    }
+}
