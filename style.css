@@ -186,21 +186,95 @@ footer a:hover {
     color: #e8e6e1;
 }
 
-@media (max-width:600px) {
-    header h1 {
-        font-size: 26px;
-    }
 
-    nav li {
-        display: block;
-        margin: 6px 0;
-    }
 
+aside {
+    background-color: #f0ede6;
+    border: 1px solid #ddd;
+    border-left: 4px solid #1a1a2e;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+aside h3 {
+    font-size: 18px;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside li {
+    margin-bottom: 8px;
+}
+
+aside a {
+    color: #2a5a8a;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #c8a45c;
+}
+
+.breadcrumb {
+    padding: 12px 30px;
+    font-size: 14px;
+    color: #777;
+    background-color: #f0ede6;
+}
+
+.breadcrumb a {
+    color: #2a5a8a;
+    text-decoration: none;
+
+}
+
+.breadcrumb a:hover {
+    color: #c8a45c;
+}
+
+.breadcrumb span {
+    color: #333;
+}
+
+.metadata-box {
+    background-color: #f0ede6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.metadata-box h3 {
+    font-size: 18px;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+}
+
+.metadata-box .label {
+    font-weight: bold;
+    color: #1a1a2e;
+}
+
+.metadata-box .value {
+    color: #444;
+}
+
+@media (min-width:768px) {
     main {
-        padding: 20px 15px;
+        display: flex;
+        gap: 30px;
     }
 
-    article {
-        padding: 15px;
+    section {
+        flex 3;
+    }
+
+    aside {
+        flex: 1;
     }
 }
