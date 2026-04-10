@@ -260,21 +260,21 @@ aside a:hover {
     color: #1a1a2e;
 }
 
-.metadata-box .value {
-    color: #444;
-}
+@media (max-width:600px) {
+    header h1 {
+        font-size: 26px;
+    }
 
-@media (min-width:768px) {
+    nav li {
+        display: block;
+        margin: 6px 0;
+    }
+
     main {
-        display: flex;
-        gap: 30px;
+        padding: 20px 15px;
     }
 
-    section {
-        flex 3;
-    }
-
-    aside {
-        flex: 1;
+    article {
+        padding: 15px;
     }
 }
