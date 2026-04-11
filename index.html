@@ -9,14 +9,15 @@
     <!--scheda homepage-->
     <meta name="DC.title" content="il modello di Orbán">
     <meta name="DC.creator" content="Aysan Andrea Curto">
-    <meta name="DC.type" content="Collezione">
+    <meta name="DC.type" content="Collection">
     <meta name="DC.description" content="raccolta di leggi sulla democrazia illiberale ungherese">
     <meta name="DC.publisher" content="Università di Bologna">
     <meta name="DC.date" content="2026-03-01">
     <meta name="DC.subject" content="democrazia illiberale; Orbán; Ungheria">
     <meta name="DC.language" content="it">
     <meta name="DC.rights" content="uso didattico -Università di Bologna">
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 
 <body>
@@ -86,8 +87,23 @@
             <h2>Timeline interattiva</h2>
             <iframe
                 src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2%3A2PACX-1vT_I9pJVX36wQ2qBlyxXsFDdLSdBSMjucFv-z3gLrCCVO1BIKdLxBBuD2P5xgjLpl7yxQCvg1-iFq2P&font=Default&lang=en&initial_zoom=2&width=100%25&height=650'
-                width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen
-                frameborder='0'></iframe>
+                width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
+            </iframe>
+        </section>
+        <section>
+            <h2> Mappa dei luoghi </h2>
+            <div id="map" style="width: 100%; height: 450px;"></div>
+            <script>
+                var map = L.map('map').setView([47.1625, 19.5033], 7);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright"> OpenStreetMap</a>'
+                }).addTo(map);
+                L.marker([47.5071, 19.0465]).bindPopup('Budapest, sede del governo ungherese<br><a href="legge-media.html">Legge sui media (2010)</a><br><a href="legge-fondamentale.html">Legge fondamentale (2011)</a>').addTo(map);
+                L.marker([47.5025, 19.0625]).bindPopup('Central European University<br><a href="lex-ceu.html">Lex Ceu (2017)</a>').addTo(map);
+                L.marker([46.1437, 25.8540]).bindPopup('Băile Tușnad<br><a href="discorso-2014.html">Discorso Orbán (2014)</a>').addTo(map);
+                L.marker([47.50771, 19.047899]).bindPopup('Kossuth tér<br><a href="proteste-ceu.html">Proteste alla CEU (2017)</a>').addTo(map);
+            </script>
+        </section>
     </main>
     <footer>
         <p> Aysan Andrea Curto - Digital Humanities e Patrimonio Culturale - Università di Bologna </p>
@@ -96,6 +112,3 @@
 </body>
 
 </html>
-
-<!-- questo è un commento-->
-<!--alt+0225=á-->

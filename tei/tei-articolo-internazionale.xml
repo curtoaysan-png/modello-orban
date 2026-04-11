@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title> La democrazia illiberale di Viktor Orbán</title>
+                <author>Gwynne Dyer</author>
+            </titleStmt>
+            <publicationStmt>
+
+                <p> Progetto: Il modello Orban - Unibo 2026
+                </p>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p>Internazionale, 24 febbraio 2015</p>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>L'articolo di <persName ref="http://viaf.org/viaf/58028194">Gwynne Dyer</persName>,
+                pubblicato su <orgName>Internazionale</orgName> il <date when="2015-02-24">24
+                febbraio 2015</date>, analizza la trasformazione politica del primo ministro
+                ungherese <persName ref="http://viaf.org/viaf/84249300">Viktor Orbán</persName>, da
+                leader studentesco anticomunista a promotore della democrazia illiberale in <placeName>
+                Ungheria</placeName>. </p>
+            <p>L'articolo cita il discorso di <date when="2014-07">luglio 2014</date> in cui <persName
+                    ref="http://viaf.org/viaf/84249300">Viktor Orbán</persName> dichiarò di voler
+                costruire <quote> uno stato volutamente illiberale</quote>. Dal<date when="2010">
+                2010</date>, grazie alla maggioranza in <orgName
+                    ref="http://viaf.org/viaf/307456121"> Parlamento ungherese</orgName> ha
+                modificato la costituzione, controllato i media e ridisegnato i distretti elettorali
+                a favore di<orgName> Fidesz</orgName>, il partito di Orbán. </p>
+        </body>
+    </text>
+</TEI>
